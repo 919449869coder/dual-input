@@ -146,7 +146,7 @@ layers = [
 
 options = trainingOptions('adam', ...      % Adam 梯度下降算法
     'MiniBatchSize', 20,...               % 批大小,每次训练样本个数30
-    'MaxEpochs', 100, ...                  % 最大训练次数 500
+    'MaxEpochs', 50, ...                  % 最大训练次数 500
     'InitialLearnRate', 1e-3, ...          % 初始学习率为 0.001
     'L2Regularization', 1e-4, ...          % L2正则化参数
     'LearnRateSchedule', 'piecewise', ...  % 学习率下降
